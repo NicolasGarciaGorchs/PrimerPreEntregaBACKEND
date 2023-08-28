@@ -1,21 +1,4 @@
 [{
-    "title" : "tabla rigida",
-    "description" : "Tabla rígida larga",
-    "code": "extricacion1",
-    "price" : 18000,
-    "status": "false",
-    "stock": 10,
-    "category": "Extricacion"
-    },
-    
-    {
-    "title" : "collar cervical plano",
-    "description" : "set de collar cervical plano",
-    "code": "extricacion2",
-    "price" : 8000,
-    "status": "false",
-    "stock": 20,
-    "category": "Extricacion"
     }
 
 ]
