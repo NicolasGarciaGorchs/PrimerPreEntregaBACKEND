@@ -1,4 +1,38 @@
-[{
+[
+    {
+        "title": "Castrol ACTEVO 20w-50",
+        "description": "Aceite mineral para motos de motores 4 tiempos",
+        "code": "castrol1",
+        "price": 5500,
+        "status": "false",
+        "stock": 10,
+        "category": "Aceite"
+    },
+    {
+        "title": "Castrol POWER 1",
+        "description": "Aceite semi sintetico para motos de motores 4 tiempos",
+        "code": "aceite2",
+        "price": 10000,
+        "status": "false",
+        "stock": 10,
+        "category": "Aceite"
+    },
+    {
+        "title": "Bujía NGK 8EA",
+        "description": "Bujía varios modelos 150cc",
+        "code": "ngk1",
+        "price": 4000,
+        "status": "false",
+        "stock": 10,
+        "category": "Repuestos"
+    },
+    {
+        "title": "Giros Yamaha",
+        "description": "Varios modelos",
+        "code": "giros1",
+        "price": 5000,
+        "status": "false",
+        "stock": 10,
+        "category": "Repuestos"
     }
-
 ]

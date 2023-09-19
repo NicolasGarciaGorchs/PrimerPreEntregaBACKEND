@@ -1,14 +1,17 @@
 const { Router } =  require ('express')
-
-
 const router = Router ()
 
 
+// router.get ('/', (req, res) => {
+//     res.json({message: `cart ${req.body.nombre} `})
+
+// })
 
 router.get ('/:id', (req, res) => {
     res.json({message: `cart ${req.params.id} `})
 
 })
+
 // router.post ('/:cid/products/:pid', uploader.single ('file'), (req,res) => {
 
 //     const {x,y,z} =req.body
@@ -20,7 +23,8 @@ router.get ('/:id', (req, res) => {
 //     res.json({message: ` ${user}`})
 
 // })
-router.put ('/:id', (req, res) => {
+
+router.put ('/:pid', (req, res) => {
     console.log (req.body)
     res.json({message: 'update cart'})
 
