@@ -1,8 +1,8 @@
-const productsController = require('../Products/controller')
-const cartController = require('../Carts/controller')
+const productsController = require('../Products/controller.products')
+const cartsController = require('../Carts/controller.carts')
 
 const router = app => {
-  app.use('/carts', cartController)
+  app.use('/carts', cartsController)
   app.use('/products', productsController)
 }
 

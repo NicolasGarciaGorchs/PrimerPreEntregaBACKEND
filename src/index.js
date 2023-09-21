@@ -1,6 +1,7 @@
 const express = require('express')
-const router = require('./router')
+const router = require('./router/index')
 const morgan = require('morgan')
+const {v4: uuidv4} = require ('uuid')
 
 const app = express()
 
@@ -9,7 +10,6 @@ app.use(express.json()) // de terceros
 app.use(express.urlencoded({ extended: true })) // de terceros
 app.use(morgan('combined')) // de terceros
 app.use(express.static(__dirname + '/public'))
-
 router(app)
 
 module.exports = app
